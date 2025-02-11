@@ -6,7 +6,7 @@ import java.util.List;
 public class CountInversion02 {
     class Solution {
         static int merge(int[] arr, int st, int mid, int end) {
-            int n = arr.length;
+            // int n = arr.length;
             List<Integer> temp = new ArrayList<>();
             int i = st;
             int j = mid + 1;
@@ -42,7 +42,7 @@ public class CountInversion02 {
 
         static int mergeSort(int[] arr, int st, int end) {
             if (st < end) {
-                int n = arr.length;
+                // int n = arr.length;
                 int mid = st + (end - st) / 2;
 
                 int leftCount = mergeSort(arr, st, mid);
