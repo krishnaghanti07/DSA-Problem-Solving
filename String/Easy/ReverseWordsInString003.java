@@ -1,6 +1,7 @@
-// package String.Easy.Reverse Words in a String;
+// package String.Easy;
 
-public class ReverseWordsInaString002 {
+public class ReverseWordsInString003 {
+
     class Solution {
         public void reverse(StringBuilder sb , int i , int j) {
             while (i < j) {
@@ -29,3 +30,4 @@ public class ReverseWordsInaString002 {
         }
     }
 }
+

@@ -1,4 +1,5 @@
-package Easy;
+package Easy_;
+// package Easy;
 public class MoveZeros01 {
     class Solution {
         public void moveZeroes(int[] arr) {

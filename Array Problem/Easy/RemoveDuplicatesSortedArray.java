@@ -1,4 +1,5 @@
-package Easy;
+// package Array Problem.Easy;
+
 public class RemoveDuplicatesSortedArray {
     class Solution {
         public int removeDuplicates(int[] arr) {
